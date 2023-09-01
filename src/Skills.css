@@ -1,0 +1,37 @@
+.skill-section {
+  background: rgba(148, 187, 233, 1);
+  /* background: linear-gradient(
+    90deg,
+    var(--clr-primary-5) 0%,
+    rgba(148, 187, 233, 1) 100% 
+  );*/
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.skill-section .title {
+  color: #ffff;
+  padding-top: 3rem;
+  margin: 0px 0px 3rem 0px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  width: 90vm;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.fade-top {
+  height: 2rem;
+  background-image: linear-gradient(#ffff, var(--clr-primary-5));
+}
+
+.fade-btm {
+  height: 2rem;
+  background-image: linear-gradient(var(--clr-primary-5), #ffff);
+}

@@ -1,0 +1,95 @@
+const jobs = [
+  {
+    id: 1,
+    order: 7,
+    title: "Data Lead",
+    dates: "OCT 2022  - Present",
+    company: "BioMark",
+    duties: [
+      "Oversee the data team, develop data pipelines, construct data warehouses, and provide data-oriented business direction.",
+      "Design data infrastructure and onboard tools to automate data transfer from multiple sources and ensure data integrity.",
+      "Prioritize the data product backlogs and user stories.",
+    ],
+  },
+  {
+    id: 2,
+    order: 6,
+    title: "AI Product Manager",
+    dates: "September 2021 - October 2022",
+    company: "MoneyLion",
+    duties: [
+      "Led the AI and data science functions for MoneyLion Marketplace and Feed. Identify product focus and AI strategy solutions aligned with the company's strategic vision.",
+      "Develop hypotheses on potential product improvements and conduct A/B tests to back-up product decision-making. Collaborated with data scientists to design statistical testing to optimize product features.",
+      "Prioritize backlogs and provide regular outcomes updates to stakeholders and other business units.",
+    ],
+  },
+  {
+    id: 3,
+    order: 5,
+    title: "Consultant",
+    dates: "December 2020 - September 2021",
+    company: "Deloitte Digital",
+    duties: [
+      "Analyzed and interpreted app users' behavior to develop customer lifecycle.",
+      "Build and maintain scalable ETL pipelines using Azure Data Factory.",
+      "Developed and presented recommendations to senior leadership on how to improve operations.",
+      "Created comprehensive reports for executive decision-making.",
+    ],
+  },
+  {
+    id: 2,
+    order: 4,
+    title: "Market Analyst, Lead MY",
+    dates: "January 2019 - December 2020",
+    company: "Grab",
+    duties: [
+      "Leading analytic function in Grab Marketing Malaysia, the marketing team's go-to person for data questions and data reconciliation needs.",
+      "Data mining, making sense of disparate or converged datasets and transforming them into compelling stories.",
+      "Set up campaign analysis SOP to provide valuable insights to the business stakeholders. Automated campaign analysis process and reduce operational efforts and time consumption by 70%.",
+      "Building user-focused reports and dashboards using Tableau, Holistic.io, and other data tools to provide daily business/campaign insights and reporting.",
+    ],
+  },
+  {
+    id: 3,
+    order: 3,
+    title: "Analytics Consultant",
+    dates: "July 2017 - November 2019",
+    company: "Artefact",
+    duties: [
+      "Executing Google Tag Manager deployment & websites tagging for global clients covering 40+ websites across 8 countries.",
+      "Discover insights by running Machine Learning algorithm and SQL Analysis",
+      "Discover actionable insights and develop hypothesis",
+      "Designed and developed the dashboards visualizing a holistic view of metrics and KPIs.",
+      "Running cross-channel campaigns (Google, FB, IG, Linkedin, Yahoo Japan, Naver) for a set of global and regional clients and driving performance campaigns (leads, conversions)",
+      "Responsible for ensuring a smooth running of clients' campaign including effective budget control, strategy planning, and media plan & budget planning.",
+    ],
+  },
+  {
+    id: 4,
+    order: 2,
+    title: "Digital Media Analyst",
+    dates: "March 2016 - May 2017",
+    company: "Persuasion Tech",
+    duties: [
+      "Developed and executed project plans, procedures, and sets measurable campaigns KPI.",
+      "Run A/B on websites and campaigns and develop digital marketing playbook for clients.",
+      "Developed digital strategies and business/campaign funnels.",
+      "Monitored and optimized marketing campaigns across various platforms (Facebook, Instagram, Google Adwords, LinkedIn)",
+      "Reduced campaigns CPL/CPA by 30% using data-driven optimization tactics ( A/B testing landing pages, audience targeting, ad copies, campaign optimization methods, and attribution models)",
+      "Identified actionable insights and business funnels through customers clustering analysis.",
+    ],
+  },
+  /*{
+    id: 5,
+    order: 1,
+    title: "Google Ads Specialist",
+    dates: "August 2015 - February 2016",
+    company: "Exabytes",
+    duties: [
+      "Responsible to manage and optimize Google Paid Advertising ( Google Search, Display & YouTube).",
+      "Implement different optimization techniques, components including but not limited to - average CPC, Cost/Conv, Ad Copy, improve market share, Remarketing and Upselling.",
+      "Analyze account performance with Google AdWords and Google Analytics reports and perform optimization.",
+    ],
+  }, */
+];
+export default jobs;
